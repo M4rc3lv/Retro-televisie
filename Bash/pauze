@@ -1,0 +1,7 @@
+#!/bin/bash
+export DISPLAY=:0
+sleep 0.3 && xdotool mousemove 400 400
+sleep 0.4 && xdotool click 1
+
+
+

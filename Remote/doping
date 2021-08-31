@@ -1,0 +1,5 @@
+#!/bin/bash
+ping televisie.local -c 1 -W 1
+exit $?
+
+

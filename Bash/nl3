@@ -1,0 +1,14 @@
+#!/bin/bash
+export DISPLAY=:0
+pkill chromium
+cd /home/pi/tv
+chromium-browser --kiosk https://www.npostart.nl/live/npo-3 &
+sleep 15
+sleep 0.3 && xdotool mousemove 400 400
+sleep 5
+sleep 0.3 && xdotool mousemove 400 400
+sleep 0.4 && xdotool click 1
+
+xdotool mousemove 800 800
+
+
